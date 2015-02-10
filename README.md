@@ -16,5 +16,6 @@ Tests
 Because this module uses uwsgi for the cache backend you must have uwsgi installed to run it.
 
     mkvirtualenv uwsgi-cache
+    pip install uwsgi
     ./run.sh
 
